@@ -1,5 +1,5 @@
 import { getAuth } from "@clerk/nextjs/server";
-import { connectDB } from "../../../lib/mongodb";
+import connectDB from "../../../lib/mongodb";
 import Job from "../../../models/job";
 import Company from "../../../models/company";
 import User from "../../../models/User";
